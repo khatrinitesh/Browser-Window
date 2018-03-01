@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	border: 3px solid #f1f1f1;
+	max-width: 300px;
+	margin: 0 auto;
+	border-radius: 5px 5px 0 0;
+}
+
+.container .top{
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+.container .top .dot{
+	width: 12px;
+	height: 12px;
+	background-color: #bbb;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.container .content{
+	padding: 10px;
+}
